@@ -17,4 +17,16 @@
         }
     }
 
+    var elements = ['div', 'body', 'td'];
+
+    for (var l = 0; l < elements.length; l++) {
+        var tags = document.getElementsByTagName(elements[l]);
+        for (var m = 0; m < tags.length; m++) {
+            var  tag = tags[m];
+            if (tag.style.backgroundImage) {
+                tag.style.backgroundImage = 'url("' + image_url + '")';
+            }
+        }
+    }
+
 })(document);
