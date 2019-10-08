@@ -2,7 +2,7 @@
 
     var images = document.getElementsByTagName('img');
     var pictures = document.getElementsByTagName('picture');
-    var image_url = 'https://ibin.co/4QfCJq02uPFT.png';
+    var image_url = 'https://jenko.me/assets/img/damien.png';
 
     for (var i = 0; i < images.length; i++) {
         images[i].src = image_url + '?' + images[i].width + '/' + images[i].height;
